@@ -1,0 +1,252 @@
+(footprint "LED_JB2835BWT-G-U40GA0000-N0000001"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.675 -2.385 0)
+		(layer "F.SilkS")
+		(uuid "28bffdf8-7144-48a0-8db2-e6e804a4fa93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_JB2835BWT-G-U40GA0000-N0000001"
+		(at 19.09 2.615 0)
+		(layer "F.Fab")
+		(uuid "fdaee791-59e4-4b90-b986-fd5bd0b3c143")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://downloads.cree-led.com/files/ds/j/JSeries-2835-3V-Consolidated.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f75bcb73-dda9-4175-8b81-bc9554d96659")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "LED Lighting J White, Warm 2200K 3-Step MacAdam Ellipse 2.67V 55mA 120° 1411 (3528 Metric)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60d0a678-8653-4ccb-b936-21aa3f72b84d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.75 -1.4)
+		(end 1.75 -1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c9c5ba3-d0c2-443f-b1c8-a3c881115e03")
+	)
+	(fp_line
+		(start -1.75 -1.25)
+		(end -1.75 -1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98f9f1d9-da38-4047-8238-d97cde549387")
+	)
+	(fp_line
+		(start -1.75 1.4)
+		(end -1.75 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "44a6fa10-c4db-42f0-9d3d-71712d895b89")
+	)
+	(fp_line
+		(start 1.75 -1.4)
+		(end 1.75 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd4d1653-3480-4657-9513-7c5df584fdc3")
+	)
+	(fp_line
+		(start 1.75 1.25)
+		(end 1.75 1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9bfd68e-243f-44c4-a266-6b00fbdc1232")
+	)
+	(fp_line
+		(start 1.75 1.4)
+		(end -1.75 1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95369565-7488-42d3-a682-6ee892516dae")
+	)
+	(fp_circle
+		(center -2.6 0)
+		(end -2.5 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ac01aed7-203d-4289-ba28-581188bd73fb")
+	)
+	(fp_line
+		(start -2.195 -1.65)
+		(end 2.195 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7bf5ffb4-6a7c-4c39-ae2a-ba883ed70805")
+	)
+	(fp_line
+		(start -2.195 1.65)
+		(end -2.195 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "41ffd611-f10b-4e8a-986e-25e3841480d2")
+	)
+	(fp_line
+		(start 2.195 -1.65)
+		(end 2.195 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dd6ecc16-0733-49d0-9dc6-0a833c2fed7a")
+	)
+	(fp_line
+		(start 2.195 1.65)
+		(end -2.195 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "01cbcc1b-87c3-4b3f-a1a3-5c2e271b8d0a")
+	)
+	(fp_line
+		(start -1.75 -1.4)
+		(end 1.75 -1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4790009d-d88a-4c9a-a4ab-51a6242a823e")
+	)
+	(fp_line
+		(start -1.75 1.4)
+		(end -1.75 -1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "27126cd5-5d1a-4fbf-8cf6-3f5eb44bda33")
+	)
+	(fp_line
+		(start 1.75 -1.4)
+		(end 1.75 1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c115d5bf-6cdb-46ae-8133-15c737f5f211")
+	)
+	(fp_line
+		(start 1.75 1.4)
+		(end -1.75 1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a01acd48-a9a6-49b6-97e1-e59693fa686b")
+	)
+	(fp_circle
+		(center -2.6 0)
+		(end -2.5 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "301e7347-5c16-46c2-a1cb-9838c38c55cb")
+	)
+	(pad "A" smd rect
+		(at 1.395 0)
+		(size 1.1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "eee56bab-93fb-4eb3-8700-08a549a7ae83")
+	)
+	(pad "C" smd rect
+		(at -0.845 0)
+		(size 2.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "74c87554-a570-4cb5-bf46-12abc8670e14")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/JB2835BWT-G-U40GA0000-N0000001/JB2835BWT-G-U40GA0000-N0000001.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/JB2835BWT-G-U40GA0000-N0000001/JB2835BWT-G-U40GA0000-N0000001--3DModel-STEP-1.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

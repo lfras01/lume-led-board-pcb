@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/JB2835BWT-G-U40GA0000-N0000001/Library.pretty")(options "")(descr ""))
+)
