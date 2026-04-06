@@ -553,6 +553,304 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:PTVS12VZ1USK"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PTVS12VZ1USK"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS12VZ1USK.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "12V, 1900W TVS unidirectional diode, DSN1608-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TVS diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*DSN1608?2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PTVS12VZ1USK_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PTVS12VZ1USK_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:PTVS5V0Z1USKP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PTVS5V0Z1USKP"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS5V0Z1USKP.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "5V, 2000W TVS unidirectional diode, DSN1608-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TVS diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*DSN1608?2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PTVS5V0Z1USKP_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PTVS5V0Z1USKP_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "JB2835BWT-G-U40GA0000-N0000001:JB2835BWT-G-U40GA0000-N0000001"
 			(pin_names
 				(offset 1.016)
@@ -2125,10 +2423,16 @@
 		)
 	)
 	(junction
-		(at 156.21 78.74)
+		(at 134.62 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "02ede780-d957-4f84-9612-12a41db44d24")
+		(uuid "1058b892-d6c7-468b-bc71-b4c611d5014b")
+	)
+	(junction
+		(at 134.62 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21142b20-9cfe-4ff0-b380-f1a8eec47861")
 	)
 	(junction
 		(at 91.44 43.18)
@@ -2143,6 +2447,12 @@
 		(uuid "3b40d711-ef67-4802-82c2-e56218d7af36")
 	)
 	(junction
+		(at 156.21 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c3aaf3b-5dc0-425a-8e26-d0d5352a7725")
+	)
+	(junction
 		(at 72.39 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2155,10 +2465,22 @@
 		(uuid "58e1b0b8-e7c2-4ce6-a17d-35d7e6e3a399")
 	)
 	(junction
-		(at 143.51 50.8)
+		(at 123.19 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7edad067-c0ab-4743-8327-d3746c9c5ef6")
+		(uuid "7afda5b4-7b45-4d57-a8cd-0b3f12d70da4")
+	)
+	(junction
+		(at 156.21 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9586d859-0a58-4168-b7fe-9d53156a9f8f")
+	)
+	(junction
+		(at 156.21 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a61c0bea-3244-4949-a18b-6385b4b84174")
 	)
 	(junction
 		(at 132.08 109.22)
@@ -2167,10 +2489,10 @@
 		(uuid "a82804ab-9572-465e-a2ef-596104b55258")
 	)
 	(junction
-		(at 142.24 68.58)
+		(at 156.21 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c4c2c0e9-b2b5-41d5-9ea0-c49c021f0c66")
+		(uuid "d5a4bcd8-2aef-4b84-9598-1c6c229e825e")
 	)
 	(junction
 		(at 63.5 43.18)
@@ -2187,6 +2509,16 @@
 			(type default)
 		)
 		(uuid "0148e0e5-6d71-4450-a9db-6bc9c4aa5d06")
+	)
+	(wire
+		(pts
+			(xy 134.62 69.85) (xy 134.62 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07597525-2241-4849-bada-7faa3f8f6212")
 	)
 	(wire
 		(pts
@@ -2220,6 +2552,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 78.74) (xy 156.21 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19fe3193-8f25-47e9-beaa-7abc57ab38fc")
+	)
+	(wire
+		(pts
 			(xy 63.5 43.18) (xy 72.39 43.18)
 		)
 		(stroke
@@ -2237,6 +2579,16 @@
 			(type default)
 		)
 		(uuid "229af9e2-1676-4f09-b201-dd0fd1c3b257")
+	)
+	(wire
+		(pts
+			(xy 134.62 78.74) (xy 156.21 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28baae49-83f9-4514-b92d-e48029608024")
 	)
 	(wire
 		(pts
@@ -2270,7 +2622,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 76.2) (xy 142.24 78.74)
+			(xy 123.19 76.2) (xy 123.19 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2287,6 +2639,16 @@
 			(type default)
 		)
 		(uuid "402f659f-65f2-4734-bb0f-7546fbabe8f4")
+	)
+	(wire
+		(pts
+			(xy 156.21 74.93) (xy 156.21 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40aba5bd-e692-4cdf-8d28-ffaa74da559a")
 	)
 	(wire
 		(pts
@@ -2310,6 +2672,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 68.58) (xy 148.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a907d5-56c2-4706-bb05-1b273419a22d")
+	)
+	(wire
+		(pts
 			(xy 132.08 106.68) (xy 132.08 109.22)
 		)
 		(stroke
@@ -2320,7 +2692,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 50.8) (xy 143.51 43.18)
+			(xy 156.21 43.18) (xy 156.21 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2337,16 +2709,6 @@
 			(type default)
 		)
 		(uuid "647d4d33-13ce-4926-8b21-f7c43217271d")
-	)
-	(wire
-		(pts
-			(xy 143.51 50.8) (xy 156.21 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cccea29-4852-4c18-991a-ec94eab2c408")
 	)
 	(wire
 		(pts
@@ -2380,7 +2742,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 73.66) (xy 156.21 78.74)
+			(xy 156.21 73.66) (xy 156.21 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2390,43 +2752,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 50.8) (xy 156.21 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e25877e-01c6-41ce-b5a0-aac807e6e27f")
-	)
-	(wire
-		(pts
-			(xy 142.24 68.58) (xy 148.59 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "997ad1a7-7857-421a-beec-049e242de712")
-	)
-	(wire
-		(pts
-			(xy 138.43 68.58) (xy 142.24 68.58)
+			(xy 119.38 68.58) (xy 123.19 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "99c8441c-8eff-4d9c-a678-65d2b31306a0")
-	)
-	(wire
-		(pts
-			(xy 142.24 78.74) (xy 156.21 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c63658b-c80f-4ed0-8c79-3755a9367bae")
 	)
 	(wire
 		(pts
@@ -2440,6 +2772,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 60.96) (xy 156.21 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e122e7-113a-4d58-8392-fdcc029b6680")
+	)
+	(wire
+		(pts
 			(xy 82.55 43.18) (xy 91.44 43.18)
 		)
 		(stroke
@@ -2450,6 +2792,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 77.47) (xy 134.62 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d20c12-9f9f-45ac-841a-8a248ad3cb2f")
+	)
+	(wire
+		(pts
 			(xy 91.44 43.18) (xy 91.44 50.8)
 		)
 		(stroke
@@ -2457,6 +2809,16 @@
 			(type default)
 		)
 		(uuid "b44abb0c-8a30-44a5-a42e-f8244f7bebc7")
+	)
+	(wire
+		(pts
+			(xy 172.72 72.39) (xy 172.72 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba249b76-bd68-4a65-8ad3-bbfc3de12332")
 	)
 	(wire
 		(pts
@@ -2480,16 +2842,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 81.28) (xy 156.21 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8b152de-c0be-4446-92c2-ba3d72f47731")
-	)
-	(wire
-		(pts
 			(xy 91.44 43.18) (xy 95.25 43.18)
 		)
 		(stroke
@@ -2500,7 +2852,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 68.58) (xy 142.24 71.12)
+			(xy 123.19 68.58) (xy 123.19 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2510,7 +2862,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 68.58) (xy 133.35 68.58)
+			(xy 99.06 68.58) (xy 114.3 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2530,6 +2882,56 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 64.77) (xy 172.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e48be1a1-bec7-4520-a928-8c56939d6235")
+	)
+	(wire
+		(pts
+			(xy 156.21 50.8) (xy 156.21 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6cd14c7-1cfa-4a36-8dce-803ee598ffbd")
+	)
+	(wire
+		(pts
+			(xy 172.72 74.93) (xy 156.21 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e776924b-b11b-40ba-8b9d-c4636ac58d3f")
+	)
+	(wire
+		(pts
+			(xy 123.19 68.58) (xy 134.62 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b3bf23-6f96-429c-b0e3-ff6417c44871")
+	)
+	(wire
+		(pts
+			(xy 172.72 60.96) (xy 156.21 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e888cbd6-2379-4f24-a8c5-095a8fd5b3fd")
+	)
+	(wire
+		(pts
 			(xy 132.08 111.76) (xy 132.08 119.38)
 		)
 		(stroke
@@ -2538,8 +2940,18 @@
 		)
 		(uuid "eb5fe915-9e50-49af-acfc-59efe97c81d5")
 	)
+	(wire
+		(pts
+			(xy 123.19 78.74) (xy 134.62 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee381e24-bc6d-4bbb-a2fa-2d129602c23e")
+	)
 	(label "GPIO_IN"
-		(at 120.65 68.58 0)
+		(at 101.6 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2550,7 +2962,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 142.24 73.66 180)
+		(at 123.19 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2559,7 +2971,7 @@
 		(fields_autoplaced yes)
 		(uuid "013a5b96-8bfb-46f2-ac80-85f397a2f1e5")
 		(property "Reference" "R39"
-			(at 144.78 72.3899 0)
+			(at 125.73 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +2980,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 144.78 74.9299 0)
+			(at 125.73 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2577,7 +2989,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 142.24 73.66 0)
+			(at 123.19 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +2998,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 73.66 0)
+			(at 123.19 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2595,7 +3007,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 142.24 73.66 0)
+			(at 123.19 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,7 +4265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "2u2"
 			(at 77.47 49.53 0)
 			(effects
 				(font
@@ -4177,7 +4589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 64.77 49.53 0)
 			(effects
 				(font
@@ -4246,7 +4658,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "130R"
+		(property "Value" "130"
 			(at 99.8572 45.5423 90)
 			(effects
 				(font
@@ -4553,6 +4965,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:PTVS5V0Z1USKP")
+		(at 134.62 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2e27704-68fa-4d13-89ef-451bc50e2ecf")
+		(property "Reference" "D11"
+			(at 137.16 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PTVS5V0Z1USKP"
+			(at 137.16 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
+			(at 130.175 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS5V0Z1USKP.pdf"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V, 2000W TVS unidirectional diode, DSN1608-2"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "451498be-6749-4431-980a-9e7fadfcd607")
+		)
+		(pin "1"
+			(uuid "2d5d0235-1aab-4937-8b4d-1a455f8a3ae9")
+		)
+		(instances
+			(project "LED_Board"
+				(path "/927db730-6f54-474c-a8c0-1b2e5bcd79c4"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:LED_Cree_XHP50_12V_HighDensity")
 		(at 113.03 109.22 0)
 		(unit 1)
@@ -4625,7 +5107,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 135.89 68.58 90)
+		(at 116.84 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4634,7 +5116,7 @@
 		(fields_autoplaced yes)
 		(uuid "c763cc3d-1958-48b2-b8f1-63185db3cd0f")
 		(property "Reference" "R38"
-			(at 135.89 62.23 90)
+			(at 116.84 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4642,7 +5124,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 135.89 64.77 90)
+			(at 116.84 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4650,7 +5132,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 135.89 68.58 0)
+			(at 116.84 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4659,7 +5141,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 68.58 0)
+			(at 116.84 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,7 +5150,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 135.89 68.58 0)
+			(at 116.84 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +5191,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "130R"
+		(property "Value" "130"
 			(at 99.8572 53.1623 90)
 			(effects
 				(font
@@ -4755,6 +5237,265 @@
 			(project "LED_Board"
 				(path "/927db730-6f54-474c-a8c0-1b2e5bcd79c4"
 					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JB2835BWT-G-U40GA0000-N0000001:JB2835BWT-G-U40GA0000-N0000001")
+		(at 151.13 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d72a7bec-a3b0-42ff-a33c-9a6c70361663")
+		(property "Reference" "D7"
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JB2835BWT-G-U40GA0000-N0000001"
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:LED_JB2835BWT-G-U40GA0000-N0000001"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Cree"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1411 Cree"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/JB2835BWT-G-U40GA0000-N0000001/Cree/view-part/?ref=eda"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "3A"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/JB2835BWT-G-U40GA0000-N0000001/Cree/view-part/?ref=snap"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "JB2835BWT-G-U40GA0000-N0000001"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "LED Lighting series White, Neutral 4000K 3-Step MacAdam Ellipse 2.67V 55mA 120° 1411 (3528 Metric)"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Cree"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "ab576bcd-6d3d-4327-a575-45e2231172e6")
+		)
+		(pin "C"
+			(uuid "7e7b9acd-3c11-4e0a-9517-c6f0b097e7e2")
+		)
+		(instances
+			(project "LED_Board"
+				(path "/927db730-6f54-474c-a8c0-1b2e5bcd79c4"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:PTVS12VZ1USK")
+		(at 172.72 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddd58b6e-8cd6-43f1-bbaa-14e5dca68032")
+		(property "Reference" "D10"
+			(at 175.26 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PTVS12VZ1USK"
+			(at 175.26 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
+			(at 168.275 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS12VZ1USK.pdf"
+			(at 172.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12V, 1900W TVS unidirectional diode, DSN1608-2"
+			(at 172.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c9a36542-e4a2-41e6-ad1f-3967f8571880")
+		)
+		(pin "1"
+			(uuid "4e15635e-52ca-4323-8b2b-fb1de5846bf6")
+		)
+		(instances
+			(project "LED_Board"
+				(path "/927db730-6f54-474c-a8c0-1b2e5bcd79c4"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4821,6 +5562,195 @@
 			(project "LED_Board"
 				(path "/927db730-6f54-474c-a8c0-1b2e5bcd79c4"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JB2835BWT-G-U40GA0000-N0000001:JB2835BWT-G-U40GA0000-N0000001")
+		(at 151.13 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2499f2c-6bc9-438b-aaeb-00556bfd83f6")
+		(property "Reference" "D9"
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JB2835BWT-G-U40GA0000-N0000001"
+			(at 149.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:LED_JB2835BWT-G-U40GA0000-N0000001"
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Cree"
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1411 Cree"
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/JB2835BWT-G-U40GA0000-N0000001/Cree/view-part/?ref=eda"
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "3A"
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/JB2835BWT-G-U40GA0000-N0000001/Cree/view-part/?ref=snap"
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "JB2835BWT-G-U40GA0000-N0000001"
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "LED Lighting series White, Neutral 4000K 3-Step MacAdam Ellipse 2.67V 55mA 120° 1411 (3528 Metric)"
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Cree"
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "06518f2b-bf49-490b-af67-4feb782ebae3")
+		)
+		(pin "C"
+			(uuid "190ddba4-3236-4694-8d9e-63a9bd0a9800")
+		)
+		(instances
+			(project "LED_Board"
+				(path "/927db730-6f54-474c-a8c0-1b2e5bcd79c4"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -4898,7 +5828,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 118.11 68.58 90)
+		(at 99.06 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4907,7 +5837,7 @@
 		(fields_autoplaced yes)
 		(uuid "f789fd39-fc66-4ff4-9a78-c10326138549")
 		(property "Reference" "TP2"
-			(at 114.808 63.5 90)
+			(at 95.758 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,7 +5845,7 @@
 			)
 		)
 		(property "Value" "GPIO_IN"
-			(at 114.808 66.04 90)
+			(at 95.758 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4923,7 +5853,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 118.11 63.5 0)
+			(at 99.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4932,7 +5862,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 63.5 0)
+			(at 99.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,7 +5871,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 118.11 68.58 0)
+			(at 99.06 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
