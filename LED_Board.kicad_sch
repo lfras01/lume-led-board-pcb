@@ -2422,6 +2422,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Change to 4 pin or pogos, check the current orientation"
+		(exclude_from_sim no)
+		(at 152.4 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3475b330-0070-4b86-89cc-d6dc6144f6a7")
+	)
 	(junction
 		(at 134.62 68.58)
 		(diameter 0)
