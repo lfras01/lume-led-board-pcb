@@ -5,169 +5,6 @@
 	(uuid "927db730-6f54-474c-a8c0-1b2e5bcd79c4")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -2422,16 +2259,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Change to 4 pin or pogos, check the current orientation"
-		(exclude_from_sim no)
-		(at 152.4 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3475b330-0070-4b86-89cc-d6dc6144f6a7")
-	)
 	(junction
 		(at 134.62 68.58)
 		(diameter 0)
@@ -2449,12 +2276,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26946ee0-605b-45f7-8500-65fecfcf1e3c")
-	)
-	(junction
-		(at 132.08 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b40d711-ef67-4802-82c2-e56218d7af36")
 	)
 	(junction
 		(at 156.21 74.93)
@@ -2493,12 +2314,6 @@
 		(uuid "a61c0bea-3244-4949-a18b-6385b4b84174")
 	)
 	(junction
-		(at 132.08 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a82804ab-9572-465e-a2ef-596104b55258")
-	)
-	(junction
 		(at 156.21 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2532,6 +2347,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 111.76) (xy 132.08 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "085780d5-fe9c-4163-bc2d-0918bf32cafd")
+	)
+	(wire
+		(pts
 			(xy 82.55 54.61) (xy 82.55 59.69)
 		)
 		(stroke
@@ -2539,16 +2364,6 @@
 			(type default)
 		)
 		(uuid "0c91fd05-2c72-411d-bd4a-e3d1e683131a")
-	)
-	(wire
-		(pts
-			(xy 132.08 109.22) (xy 134.62 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14f30dc4-a6d2-494c-b983-130df3da5452")
 	)
 	(wire
 		(pts
@@ -2609,26 +2424,6 @@
 			(type default)
 		)
 		(uuid "2ee137d8-12e9-4fea-90e7-21bc3bd599a3")
-	)
-	(wire
-		(pts
-			(xy 132.08 111.76) (xy 134.62 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3241a6be-4d7e-4d45-a1ab-d3e70b2c2a9c")
-	)
-	(wire
-		(pts
-			(xy 132.08 119.38) (xy 132.08 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34663f44-be52-4ff3-942d-30a1c8bfa13b")
 	)
 	(wire
 		(pts
@@ -2852,6 +2647,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 111.76) (xy 132.08 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6bb8d0-2fef-4dd4-b749-33bc2a2badd1")
+	)
+	(wire
+		(pts
 			(xy 91.44 43.18) (xy 95.25 43.18)
 		)
 		(stroke
@@ -2942,16 +2747,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 111.76) (xy 132.08 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb5fe915-9e50-49af-acfc-59efe97c81d5")
-	)
-	(wire
-		(pts
 			(xy 123.19 78.74) (xy 134.62 78.74)
 		)
 		(stroke
@@ -3017,6 +2812,24 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0805FT10K0"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com.au/en/products/detail/stackpole-electronics-inc/RMCF0805FT10K0/1760676?_gl=1*17me53a*_up*MQ..*_gs*MQ.."
 			(at 123.19 73.66 0)
 			(effects
 				(font
@@ -3213,6 +3026,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "JB2835BWT-G-U22GA0000-N0000001"
+			(at 110.49 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com.au/en/products/detail/cree-led/JB2835BWT-G-U22GA0000-N0000001/14554783?_gl=1*m2jdo8*_up*MQ..*_gs*MQ.."
+			(at 110.49 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "cd387129-c171-45e1-b6d3-9055d119e47e")
 		)
@@ -3365,7 +3196,7 @@
 		(at 132.08 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3415,6 +3246,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bac692b8-de63-45eb-b3bd-2da7e65848f8")
 		)
@@ -3429,32 +3278,34 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 132.08 119.38 90)
+		(at 133.35 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38423c2e-2de5-4fec-af8a-ed3afe447815")
 		(property "Reference" "TP4"
-			(at 128.778 114.3 90)
+			(at 138.43 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "GND"
-			(at 128.778 116.84 90)
+			(at 138.43 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 132.08 114.3 0)
+			(at 133.35 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,7 +3314,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 114.3 0)
+			(at 133.35 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3323,25 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 132.08 119.38 0)
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 133.35 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 133.35 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,6 +3535,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "JB2835BWT-G-U22GA0000-N0000001"
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com.au/en/products/detail/cree-led/JB2835BWT-G-U22GA0000-N0000001/14554783?_gl=1*m2jdo8*_up*MQ..*_gs*MQ.."
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "3a78c06a-b3f1-4d2e-bf76-d0b96ce8cded")
 		)
@@ -3852,6 +3739,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "JB2835BWT-G-U22GA0000-N0000001"
+			(at 124.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com.au/en/products/detail/cree-led/JB2835BWT-G-U22GA0000-N0000001/14554783?_gl=1*m2jdo8*_up*MQ..*_gs*MQ.."
+			(at 124.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4109,6 +4014,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "JB2835BWT-G-U22GA0000-N0000001"
+			(at 124.46 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com.au/en/products/detail/cree-led/JB2835BWT-G-U22GA0000-N0000001/14554783?_gl=1*m2jdo8*_up*MQ..*_gs*MQ.."
+			(at 124.46 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "8273b3d6-be85-4c92-b4e4-ce8377f767d8")
 		)
@@ -4311,6 +4234,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GRM188R61E225KA12D"
+			(at 82.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com.au/en/products/detail/murata-electronics/GRM188R61E225KA12D/4905349"
+			(at 82.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b573a67-4a39-4436-8dd3-c6b666d2c5ab")
 		)
@@ -4331,7 +4272,7 @@
 		(at 55.88 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4372,6 +4313,24 @@
 		)
 		(property "Description" "test point"
 			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 55.88 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 55.88 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,6 +4524,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "JB2835BWT-G-U22GA0000-N0000001"
+			(at 138.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com.au/en/products/detail/cree-led/JB2835BWT-G-U22GA0000-N0000001/14554783?_gl=1*m2jdo8*_up*MQ..*_gs*MQ.."
+			(at 138.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "4673fda2-2578-46d8-b64f-2a8cb651012b")
 		)
@@ -4635,6 +4612,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 72.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com.au/en/products/detail/yageo/CC0805KRX7R9BB104/302874"
+			(at 72.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f271266-bf05-4cec-a326-ea9ed9cf2312")
 		)
@@ -4697,6 +4692,24 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 97.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0805FT130R"
+			(at 97.79 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com.au/en/products/detail/stackpole-electronics-inc/RMCF0805FT130R/1760581?_gl=1*17me53a*_up*MQ..*_gs*MQ.."
+			(at 97.79 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4959,6 +4972,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "JB2835BWT-G-U22GA0000-N0000001"
+			(at 110.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com.au/en/products/detail/cree-led/JB2835BWT-G-U22GA0000-N0000001/14554783?_gl=1*m2jdo8*_up*MQ..*_gs*MQ.."
+			(at 110.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "e0a02588-4894-48b3-a28e-7b95cc7b2869")
 		)
@@ -5029,6 +5060,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PTVS5V0Z1USKPYL"
+			(at 134.62 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com.au/en/products/detail/nexperia-usa-inc/PTVS5V0Z1USKPYL/7101604?_gl=1*hb4fe7*_up*MQ..*_gs*MQ.."
+			(at 134.62 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "451498be-6749-4431-980a-9e7fadfcd607")
 		)
@@ -5090,6 +5139,24 @@
 		)
 		(property "Description" "XLamp® XHP50 LED, 12V, 4 LEDs in series, high density"
 			(at 113.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XHP50D-H0-0000-0D0ZE427G"
+			(at 113.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com.au/en/products/detail/cree-led/XHP50D-H0-0000-0D0ZE427G/20195674?_gl=1*m2jdo8*_up*MQ..*_gs*MQ.."
+			(at 113.03 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5168,6 +5235,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RMCF0805FT1K00"
+			(at 116.84 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com.au/en/products/detail/stackpole-electronics-inc/RMCF0805FT1K00/1760090?_gl=1*17me53a*_up*MQ..*_gs*MQ.."
+			(at 116.84 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4008adb6-ca08-4d7e-9abf-7765941ac613")
 		)
@@ -5230,6 +5315,24 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 97.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0805FT130R"
+			(at 97.79 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com.au/en/products/detail/stackpole-electronics-inc/RMCF0805FT130R/1760581?_gl=1*17me53a*_up*MQ..*_gs*MQ.."
+			(at 97.79 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,6 +5529,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "JB2835BWT-G-U22GA0000-N0000001"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com.au/en/products/detail/cree-led/JB2835BWT-G-U22GA0000-N0000001/14554783?_gl=1*m2jdo8*_up*MQ..*_gs*MQ.."
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "ab576bcd-6d3d-4327-a575-45e2231172e6")
 		)
@@ -5489,6 +5610,24 @@
 		)
 		(property "Description" "12V, 1900W TVS unidirectional diode, DSN1608-2"
 			(at 172.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PTVS12VZ1USKYL"
+			(at 172.72 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com.au/en/products/detail/nexperia-usa-inc/PTVS12VZ1USKYL/6576006?_gl=1*hb4fe7*_up*MQ..*_gs*MQ.."
+			(at 172.72 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5751,6 +5890,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "JB2835BWT-G-U22GA0000-N0000001"
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com.au/en/products/detail/cree-led/JB2835BWT-G-U22GA0000-N0000001/14554783?_gl=1*m2jdo8*_up*MQ..*_gs*MQ.."
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "06518f2b-bf49-490b-af67-4feb782ebae3")
 		)
@@ -5767,81 +5924,11 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 139.7 111.76 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb289237-63fe-470c-b0ff-fa5019e49865")
-		(property "Reference" "J2"
-			(at 140.97 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 140.97 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Latch_53254-0270_1x02_P2.00mm_Horizontal"
-			(at 139.7 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 139.7 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f290c90-45a9-4942-b298-7359d4c5a2c4")
-		)
-		(pin "2"
-			(uuid "2227120a-4329-404f-a1b6-c71286496159")
-		)
-		(instances
-			(project "LED_Board"
-				(path "/927db730-6f54-474c-a8c0-1b2e5bcd79c4"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 99.06 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5882,6 +5969,24 @@
 		)
 		(property "Description" "test point"
 			(at 99.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 99.06 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 99.06 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5951,6 +6056,24 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 153.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 153.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com.au/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855772?_gl=1*krihb2*_up*MQ..*_gs*MQ.."
 			(at 153.67 68.58 0)
 			(effects
 				(font
